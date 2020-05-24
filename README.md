@@ -32,7 +32,7 @@ Just include the plugin file *after* Summernote and other required libraries. Th
 |----------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |------------------- |---------- |
 | enabled          | Enables the plugin. Setting it to false just turns Summernote back to its default behaviour when uploading images.                                                    | Bool               | true      |
 | maxSizeMB        | Sets the upper limit on the compressed image file size. **Warning**: this will override Summernote's own **maximumImageFileSize** option.                                                                                                               | Float              | 2         |
-| maxWidthOrHeight | The image, if necessary, will be scaled down by ratio to a point that width or height is smaller than maxWidthOrHeight.                                               | Integer            | String    |
+| maxWidthOrHeight | The image, if necessary, will be scaled down by ratio to a point that width or height is smaller than maxWidthOrHeight.                                               | Integer            | 1280    |
 
 
 ### Example
